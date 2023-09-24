@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    </head>
+    <body>
+    <a-scene>
+<!--        Ground-->
+        <a-box 
+            color="grey"
+            height="0.01"
+            width="200"
+            depth="200">
+        </a-box>    
+        
+<!--        walls-->
+        <a-box color="red" height="3" depth="0.2" width="6" position="0 1.5 3"></a-box>
+        
+        <a-box color="red" height="3" depth="0.2" width="6" position="0 1.5 -3"></a-box>
+        
+        <a-box color="red" height="3" depth="0.2" width="6" position="3 1.5 0" rotation="0 90 0"></a-box>
+        
+        <a-box color="red" height="3" depth="0.2" width="6" position="-3 1.5 0" rotation="0 90 0"></a-box>
+        
+<!--        wall corners-->
+        <a-box color="red" height="3" depth="0.2" width="0.2" position="-3 1.5 -3"></a-box>
+        
+        <a-box color="red" height="3" depth="0.2" width="0.2" position="3 1.5 -3"></a-box>
+        
+        <a-box color="red" height="3" depth="0.2" width="0.2" position="-3 1.5 3"></a-box>
+        
+        <a-box color="red" height="3" depth="0.2" width="0.2" position="3 1.5 3"></a-box>
+        
+<!--        Roof-->
+        <a-box color="green" height="0.2" depth="6" width="6" position=""></a-box>
+        
+        <a-box color="green" height="0.2" depth="6" width="6" position="0 2.8 0"></a-box>
+    </a-scene>
+    </body>
+</html>
